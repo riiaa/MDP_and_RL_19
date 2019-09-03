@@ -634,7 +634,7 @@ class MDPWorld:
                     break
         return {s:self.best_action_Q(self.Q,s) for s in cells}
 
-#Visualizar los datos en el documento problem-1.mdp
+#Visualizar los datos en el documento problem-1.mdp exportando de URL-GitHub
 import pandas as pd
 url = "https://raw.githubusercontent.com/riiaa/MDP_and_RL/master/problem-2.mdp"
 m = pd.read_csv(url)
